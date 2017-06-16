@@ -1,4 +1,49 @@
+ 
+ body {
+ 	text-align: center;
+ }
+
+ main {
+ 	background-color: lightgrey;
+ }
+
+ header {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding: 20px;
+ }
+
+ header nav ul {
+ 	padding: 20px;
+ }
+
+#links {
+	font-size: 130%;
+}
+
 
 h1 {
-text-align: center;
+	font-size: 200%;
+	font-family: "Arial Black";
+}
+
+h2 {
+	font-family: "Helvetica";
+	font-style: italic;
+}
+
+nav ul li:before {
+	content: url("computer.png");
+	margin-right: 5px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-size: 120%;
+}
+
+p {
+	margin-left: 400px;
+	margin-right: 400px;
+	text-indent: 50px;
 }
