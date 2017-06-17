@@ -3,24 +3,41 @@
  	text-align: center;
  }
 
+ body a:hover {
+ 	color: red;
+ }
+
  main {
  	background-color: lightgrey;
  }
 
  header {
+ 	background-image: url("header.png");
  	display: flex;
  	justify-content: space-between;
+ 	padding: 40px;
+ }
+
+ header ul {
  	padding: 20px;
  }
 
- header nav ul {
+ header ul a {
+ 	padding: 20px;
+ }
+
+ #top {
+ 	padding-top: 20px;
+ }
+
+ nav li {
+ 	display: inline-block;
  	padding: 20px;
  }
 
 #links {
 	font-size: 130%;
 }
-
 
 h1 {
 	font-size: 200%;
@@ -46,4 +63,6 @@ p {
 	margin-left: 400px;
 	margin-right: 400px;
 	text-indent: 50px;
+	font-size: 110%;
+
 }
