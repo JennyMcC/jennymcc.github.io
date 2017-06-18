@@ -26,6 +26,10 @@
  	padding: 20px;
  }
 
+ #links {
+	font-size: 130%;
+}
+
  #top {
  	padding-top: 20px;
  }
@@ -35,18 +39,15 @@
  	padding: 20px;
  }
 
-#links {
-	font-size: 130%;
-}
-
 h1 {
-	font-size: 200%;
+	font-size: 250%;
 	font-family: "Arial Black";
 }
 
 h2 {
 	font-family: "Helvetica";
 	font-style: italic;
+	text-decoration: underline;
 }
 
 nav ul li:before {
@@ -56,6 +57,9 @@ nav ul li:before {
 
 nav ul li {
 	list-style-type: none;
+}
+
+nav ul li a {
 	font-size: 120%;
 }
 
@@ -63,6 +67,6 @@ p {
 	margin-left: 400px;
 	margin-right: 400px;
 	text-indent: 50px;
-	font-size: 110%;
-
+	font-size: 115%;
 }
+
