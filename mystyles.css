@@ -8,11 +8,12 @@
  }
 
  main {
- 	background-color: lightgrey;
+ 	background-color: #659DBD;
  }
 
  header {
  	background-image: url("pictures/header.png");
+ 	border-bottom: 1px solid black;
  	display: flex;
  	justify-content: space-between;
  	padding: 40px;
@@ -40,13 +41,14 @@
  }
 
 h1 {
+	color: #1D2731;
 	font-size: 250%;
 	font-family: "Arial Black";
 }
 
 h2 {
+	color: #1D2731;
 	font-family: "Helvetica";
-	font-style: italic;
 	text-decoration: underline;
 }
 
@@ -63,10 +65,30 @@ nav ul li a {
 	font-size: 120%;
 }
 
-p {
-	margin-left: 400px;
-	margin-right: 400px;
+#main:before {
+	padding-right: 10px;
+	content: url("pictures/download.png");
+}
+
+#main {
+	color: #1D2731;
+	font-size: 130%;
+	margin-left: 200px;
+	margin-right: 200px;
 	text-indent: 50px;
-	font-size: 115%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	color: #1D2731
+}
+
+#projectLinks {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
