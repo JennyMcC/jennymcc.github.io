@@ -66,20 +66,9 @@ nav ul li a {
 	font-size: 130%;
 }
 
-/*#main:before {
-	padding-right: 10px;
-	content: url("pictures/download.png");
-}*/
-
 #main {
-	/*color: #1D2731;*/
 	font-size: 130%;
-	/*margin-left: 200px;
-	margin-right: 200px;*/
 	text-indent: 50px;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
 }
 
 .allAboutMe {
