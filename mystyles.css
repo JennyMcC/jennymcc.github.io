@@ -9,11 +9,12 @@
 
  main {
  	background-color: #659DBD;
+ 	color: #1D2731
  }
 
  header {
  	background-image: url("pictures/header.png");
- 	border-bottom: 1px solid black;
+ 	border-bottom: 1px solid #1D2731;
  	display: flex;
  	justify-content: space-between;
  	padding: 40px;
@@ -65,24 +66,38 @@ nav ul li a {
 	font-size: 120%;
 }
 
-#main:before {
+/*#main:before {
 	padding-right: 10px;
 	content: url("pictures/download.png");
-}
+}*/
 
 #main {
-	color: #1D2731;
+	/*color: #1D2731;*/
 	font-size: 130%;
-	margin-left: 200px;
-	margin-right: 200px;
+	/*margin-left: 200px;
+	margin-right: 200px;*/
 	text-indent: 50px;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 
-p {
-	color: #1D2731
+.allAboutMe {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.allAboutMe-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.myPicture {
+	border: 1px solid #1D2731;
 }
 
 #projectLinks {
@@ -90,5 +105,10 @@ p {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.screenshot {
+	box-shadow: 10px 10px 5px #03083D;
+	border: 1px solid #03083D;
 }
 
