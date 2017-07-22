@@ -63,7 +63,7 @@ nav ul li {
 }
 
 nav ul li a {
-	font-size: 120%;
+	font-size: 130%;
 }
 
 /*#main:before {
@@ -110,5 +110,17 @@ nav ul li a {
 .screenshot {
 	box-shadow: 10px 10px 5px #03083D;
 	border: 1px solid #03083D;
+}
+
+ul a:link {
+	color: #63418E;
+}
+
+ul a:visited {
+	color: #63418E;
+}
+
+ul a:hover {
+	color: #AA0514;
 }
 
